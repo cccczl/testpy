@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
 var1 = 'Hello World'
 var2 = 'Python Runoob'
