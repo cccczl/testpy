@@ -17,6 +17,7 @@ for x in alist:
         x = x +10
         intlist.append(x)
     else:
+        x = x.capitalize()
         strlist.append(x)
 
 print intlist
