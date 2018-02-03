@@ -3,4 +3,8 @@
 
 dict = {'Name': 'long', 'Age': 7, 'Class': 'First'}
 
-print "dict['Name']:", dict['Name'];
+print "dict['Name'r]:", dict['Name'];
+
+print dict.keys()
+print dict.values()
+print dict.items()
