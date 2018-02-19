@@ -31,3 +31,13 @@ mylist = [10,20,30];
 ChangName(mylist);
 print "打印外置函数" , mylist
 
+#参数传递时顺序不重要python知道按照名次来匹配
+#配置默认值，在没有传入参数时输出默认值，设置默认值的应该放在参数的第二个，否则会报错
+def nameAge(name="cccczl",age = 30  ):
+    print "name", name
+    print "age", age
+    return
+nameAge(age=35,name="zhang")
+nameAge(name = "long")
+nameAge()
+
