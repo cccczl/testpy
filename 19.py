@@ -68,4 +68,14 @@ def pythoninfo1(age1):
     print "参数1:",age1
 
 pythoninfo1(10)
-pythoninfo1(10, 30, 79)
+#pythoninfo1(10, 30, 79) 传入多个参数时会报错
+
+
+def sum(arg1, arg2):
+    # 返回2个参数的和."
+    total = arg1 + arg2
+    print "函数内 : ", total
+    return total;
+
+# 调用sum函数
+t = sum(10, 790);
