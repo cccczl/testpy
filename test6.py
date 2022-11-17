@@ -1,12 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-for letter in "Python":
-    print "打印当前字母：",letter
-
-
+for _ in "Python":
+    for letter in "Python":
 fruits = ["banana", "apple", "mango"]
-for fruit in fruits:
-    print "打印当前水果：", fruit
-
-print "谢谢使用！"
+for _ in fruits:
+    for fruit in fruits:
+for letter in "Python":

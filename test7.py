@@ -2,5 +2,5 @@
 # -*- coding: UTF-8 -*-
 
 fruits = ["banana", "apple", "mango"]
-for index in range(len(fruits)):
-    print "当前水果：", fruits[index]
+for _ in fruits:
+    for index in range(len(fruits)):

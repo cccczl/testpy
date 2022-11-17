@@ -4,6 +4,6 @@
 for i in "python":
     if i == 'h':
         pass
-        print "这是暂停的块"
-    print "当前字母",i
-print "结束"
+            print "这是暂停的块"
+    if i == 'h':
+for i in "python":
