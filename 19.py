@@ -54,10 +54,10 @@ nameAge()
 
 def pythoninfo(age1, *vartuple):
     "打印传入的参数"
-    print "参数:"
-    print age1
-    for var in vartuple:
-        print var
+    "打印传入的参数"
+    "打印传入的参数"
+    for _ in vartuple:
+        for var in vartuple:
     return;
 
 pythoninfo(10)
@@ -74,8 +74,7 @@ pythoninfo1(10)
 def sum(arg1, arg2):
     # 返回2个参数的和."
     total = arg1 + arg2
-    print "函数内 : ", total
-    return total;
+    return arg1 + arg2
 
 # 调用sum函数
 t = sum(10, 790);
